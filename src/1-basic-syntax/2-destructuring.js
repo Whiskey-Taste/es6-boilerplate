@@ -78,3 +78,32 @@ const result = sum({ a: 1, b: 2 });
 console.log(result);
 
 //(props)={}
+
+/**
+ * 5.复杂的例子
+ */
+let userInfo = {
+    userName: 'Tim',
+    age: 18,
+    skills: ["Java", "js", "ts"],
+    addrs: [
+        {
+            name: 'Home',
+            addr: 'Chaoyang, Beijing',
+            code: '10010'
+
+        },
+        {
+            name: 'Company',
+            addr: 'Dongcheng, Beijing',
+            code: '10010'
+        }
+    ]
+};
+
+// let addr = userInfo?.addrs[0].addr;
+//这种写法同时利用了数组解构赋值和对象解构赋值
+let { userName, age, skills, addrs: [{ addr }] } = userInfo;
+console.log(userName, age, skills, addr);
+
+//按照模式 pattern 匹配
