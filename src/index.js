@@ -3,4 +3,6 @@
 // import "./1-basic-syntax/2-destructuring";
 // import "./1-basic-syntax/3-operator-spread"
 // import "./1-basic-syntax/4-operator-rest";
-import "./2-built-in-types/1-String";
+// import "./2-built-in-types/1-String";
+// import "./2-built-in-types/2-Object";
+import "./3-OO/class-extends";
