@@ -5,4 +5,5 @@
 // import "./1-basic-syntax/4-operator-rest";
 // import "./2-built-in-types/1-String";
 // import "./2-built-in-types/2-Object";
-import "./3-OO/class-extends";
+// import "./3-OO/class-extends";
+import "./3-OO/test"
